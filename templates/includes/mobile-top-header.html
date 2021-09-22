@@ -1,4 +1,5 @@
 <ul>
+    <!-- button to open the search bar -->
     <li class="list-inline-item">
       <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <div class="text-center">
@@ -20,8 +21,9 @@
               </div>
           </form>
       </div>
-  </li>
-  <li class="list-inline-item dropdown">
+    </li>
+    <!-- button to open the my account dropdown menu -->
+    <li class="list-inline-item dropdown">
       <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <div class="text-center">
               <div><i class="fas fa-user fa-lg"></i></div>
@@ -40,9 +42,9 @@
               <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
           {% endif %}
       </div>
-  </li>
-
-  <li class="list-inline-item">
+    </li>
+    <!-- button to access the shopping bag -->
+    <li class="list-inline-item">
       <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="">
           <div class="text-center">
               <div><i class="fas fa-shopping-bag fa-lg"></i></div>
@@ -56,4 +58,4 @@
           </div>
       </a>
     </li>
-  </ul>
+</ul>

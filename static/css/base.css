@@ -56,6 +56,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -74,7 +78,7 @@ body {
         left: 0;
         z-index: 1030;
     }
-
+/* pushes the body down */
     .header-container {
         padding-top: 164px;
     }
